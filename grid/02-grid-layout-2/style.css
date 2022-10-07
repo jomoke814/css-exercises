@@ -4,6 +4,10 @@ body, html {
 }
 
 .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 15px;
   text-align: center;
   height: 100%;
   padding: 16px;
